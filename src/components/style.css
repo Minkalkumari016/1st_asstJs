@@ -1,0 +1,64 @@
+body{
+    background-image: linear-gradient(45deg, yellowgreen, rgb(216, 14, 165));
+}
+.Shadow{
+    text-align: center;
+    text-shadow:2px 2px maroon;
+    color: white;
+}
+.flex{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: row;
+}
+.center{
+    justify-content: center;
+    width: 100%;
+}
+.container1{
+    background: maroon;
+    text-align: center;
+    margin: 0px 30px 58px 30px;
+    width: 480px;
+    height: 270px;
+    border:2px black solid;
+    border-radius: 20px;
+    color: white;
+} 
+.container2{
+    background: rgb(12, 1, 73);
+    text-align: center;
+    margin: 0px 30px 58px 30px;
+    width: 480px;
+    height: 270px;
+    border:2px black solid;
+    border-radius: 20px;
+    color: white;
+} 
+.btn1{  
+    width: 300px;
+    font-size: 1em;
+    padding: 1px 10px 1px 10px;
+    background: maroon;
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 50px;
+    color: white;
+
+}
+.btn2{  
+    width: 300px;
+    font-size: 1em;
+    padding: 1px 10px 1px 10px;
+    background: rgb(12, 1, 73);
+    height: 50px;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin: 50px;
+    color: white;
+
+}
+.btn:hover{
+    cursor: pointer;
+}
